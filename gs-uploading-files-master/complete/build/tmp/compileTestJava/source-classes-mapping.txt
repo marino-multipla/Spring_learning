@@ -1,0 +1,6 @@
+com/example/uploadingfiles/storage/FileSystemStorageServiceTests.java
+ com.example.uploadingfiles.storage.FileSystemStorageServiceTests
+com/example/uploadingfiles/FileUploadIntegrationTests.java
+ com.example.uploadingfiles.FileUploadIntegrationTests
+com/example/uploadingfiles/FileUploadTests.java
+ com.example.uploadingfiles.FileUploadTests
