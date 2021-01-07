@@ -1,0 +1,6 @@
+com/example/consumingrest/Value.java
+ com.example.consumingrest.Value
+com/example/consumingrest/Quote.java
+ com.example.consumingrest.Quote
+com/example/consumingrest/ConsumingRestApplication.java
+ com.example.consumingrest.ConsumingRestApplication
