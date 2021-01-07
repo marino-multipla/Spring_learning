@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.ApplicationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-12-20T20:50:57" hostname="JACK-F555L" time="1.58">
+  <properties/>
+  <testcase name="shouldQueryEntity" classname="hello.ApplicationTests" time="1.127"/>
+  <testcase name="shouldCreateEntity" classname="hello.ApplicationTests" time="0.029"/>
+  <testcase name="shouldUpdateEntity" classname="hello.ApplicationTests" time="0.172"/>
+  <testcase name="shouldRetrieveEntity" classname="hello.ApplicationTests" time="0.034"/>
+  <testcase name="shouldDeleteEntity" classname="hello.ApplicationTests" time="0.057"/>
+  <testcase name="shouldReturnRepositoryIndex" classname="hello.ApplicationTests" time="0.097"/>
+  <testcase name="shouldPartiallyUpdateEntity" classname="hello.ApplicationTests" time="0.033"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.springframework.data.rest.webmvc.RepositoryController
+           Method = org.springframework.data.rest.webmvc.RepositoryController#listRepositories()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/hal+json"]
+     Content type = application/hal+json
+             Body = {
+  "_links" : {
+    "people" : {
+      "href" : "http://localhost/people"
+    },
+    "profile" : {
+      "href" : "http://localhost/profile"
+    }
+  }
+}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
